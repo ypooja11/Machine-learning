@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 data_file_name=input("Enter the name of your data file:")
-file_Object=open('C:/Users/pooja/.spyder-py3/'+data_file_name,"r")
+file_Object=open(data_file_name,"r")
 
 first_line=file_Object.readline()
 first_line_array=first_line.split()
